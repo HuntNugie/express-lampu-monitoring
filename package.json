@@ -1,0 +1,32 @@
+{
+  "name": "backend-express-lampu",
+  "version": "1.0.0",
+  "description": "endpoint untuk monitoring lampu",
+  "homepage": "https://github.com/HuntNugie/express-lampu-monitoring#readme",
+  "bugs": {
+    "url": "https://github.com/HuntNugie/express-lampu-monitoring/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuntNugie/express-lampu-monitoring.git"
+  },
+  "license": "ISC",
+  "author": "Nugie kurniawan (HuntNugie)",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "prisma": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
